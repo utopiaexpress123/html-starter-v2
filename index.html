@@ -35,7 +35,7 @@
 
     <div class="container text-center" style="padding-top:23vh;">
 
-      <a href="#" id="ShowBot" class="btn btn-secondary">
+      <a href="#" id="ShowBot" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 1536 1536">
           <path d="M860.481 576l128.64-493.44c1.92-6.048 2.88-12.513 2.88-19.2 0-34.848-28.161-63.36-63.072-63.36-19.809 0-37.44 8.961-48.927 23.361l-642.243 832.959c-8.64 10.881-13.758 24.639-13.758 39.681 0 35.199 28.8 63.999 63.999 63.999h387.489l-128.64 493.44c-1.953 6.081-2.88 12.513-2.88 19.2 0.030 34.881 28.191 63.36 63.072 63.36 19.839 0 37.44-8.928 48.96-23.361l642.207-832.959c8.673-10.881 13.791-24.609 13.791-39.681 0-35.199-28.8-63.999-63.999-63.999h-387.519z"></path>
           </svg>
@@ -47,7 +47,7 @@
         Lets do things out of adventure, curiosity, joy and passion.<br>We are not the robots anymore. We built one.
       </h5>
       <p>
-        <span style="font-size:.9em;">Upload your photos &</span> 
+        <span style="font-size:.9em;">Try out our new stuff:</span> 
         <a href="https://clone.utopia.express/" class="btn btn-news">
           <img src="img/kep.gif" style="width:34px;">
            <span class="ps-2 pe-3">Bring to Life</span>
@@ -57,58 +57,37 @@
 
       <div class="row">
         <div class="col-md-5 offset-md-1 border-right text-end p-4">
-            <h1 class="pe-4 ps-4" style="padding-top:29vh;"><span class="gradient-text">Create your</span><br>digital clone</h1>
+            <h1 class="pe-4 ps-4" style="padding-top:29vh;">Create the <span class="gradient-text">Better</span> Version<br> of Yourself</h1>
             <p class="pe-4 ps-5 pt-2">
-              Upload some photos and train a custom model.
-              Once the training is complete, your custom AI model can perfectly reconstruct your 
-              facial features and generate amazingly lifelike and real images of you.
+              Upload some portrait and train your own model.
+              Our AI can perfectly reconstruct your 
+              facial features and generate amazingly lifelike, 
+              real, and good looking photos of you.<br>In any style, any enviroment, any time.
             </p>
         </div>
-        <div class="col-md-4 offset-md-1" style="padding-top:22vh;padding-bottom:22vh;">
-              <div class="card">
-                <p>            
-                <img style="width:100%;" src="img/kepek.png" class="pt-3 card-img-top" alt="...">
-                </p>
-                <div class="card-body">
-                  <h5 >Meet the better version of yourself</h5>
+        <div class="col-md-6" style="padding-top:29vh;padding-bottom:22vh;">
 
-                  <h3 class="card-text pe-3 ps-3 pt-2">
-                    Get your Clone ID and generate professional <span style="">"Good Looking" </span>portraits with your Clone. 
-                  </h3>
+                  <div class="video-container mb-4">
+                    <video autoplay loop muted poster="">
+                      <source src="/img/0210.mp4" type="video/mp4">
+                    </video>
+                  </div>
 
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">1 training run + 16 portrait photos <span>12€</span></li>
-                    <!--<li class="list-group-item">3 credit (3 training run = 48 photos) <span>30€</span></li>
-                    <li class="list-group-item">5 credit (5 training run = 70 photos) <span>40€</span></li>-->
-                  </ul>
-                  
-                  <p class="pt-2">  
-                    <a href="https://clone.utopia.express/" class="btn btn-primary">
-                      <img src="img/kep.gif" style="width:34px;border-radius: 100%;border:1px solid #000;">
-                      <span class="pe-3 ps-1">for Boys</span>
-                    </a>
+                  <p class="pt-3">Training + 16 portrait photos
+                   
                     <a href="https://clone.utopia.express/" class="btn btn-secondary">
-                      <img src="img/kep.gif" style="width:34px;border-radius: 100%;border:1px solid #000;">
-                      <span class="pe-3 ps-1">for Girls</span>
+                      <img src="img/12.png" style="width:34px;border-radius: 100%;border:1px solid #000;">
+                      <span class="pe-3 ps-1">Get Your ID</span>
                     </a>
-                    <!--
-                    <div class="dropdown">
-                      12€ / training
-                      <button class="ms-2 btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Select Your Type
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Man</a></li>
-                        <li><a class="dropdown-item" href="#">Woman</a></li>
-                        <li><a class="dropdown-item" href="#">Unisex</a></li>
-                      </ul>
-                    </div>-->
+                    
+
                   </p>
-                  <!--
+                  
                   <p style="font-weight:300;line-height:.9em;font-size:.7em;color:rgb(187, 187, 187)">1 credit = 1 training run = 16 photos. Example: with 3 credits you can train 3 different model with different or the same photos.</p>
-                   -->
-                </div>
-              </div>
+                   
+                
+              
+            
         </div>
       </div>
 
@@ -156,50 +135,66 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+      </div>
+    </div>
+  </div>
+</div>
 <!--
-    <script>
-      window.botpressWebChat.init({
-          "composerPlaceholder": "Chat with bot",
-          "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
-          "botId": "794fb01c-9a41-4e35-a295-c761252bc91b",
-          "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
-          "messagingUrl": "https://messaging.botpress.cloud",
-          "clientId": "794fb01c-9a41-4e35-a295-c761252bc91b",
-          "webhookId": "8b90a529-66e8-4342-98d1-ee75183fbeec",
-          "lazySocket": true,
-          "themeName": "prism",
-          "stylesheet": "https://utopia.express/chatbot.css",
-          "frontendVersion": "v1",
-          "theme": "prism",
-          "themeColor": "#2563eb",
-          "locale": "browser",
-          "hideWidget": "true"
-      });
-    </script>
-    <script>
-      function handleClick() {
-        console.log('Button clicked!')
-        window.botpressWebChat.sendPayload({
-          type: 'trigger',
-          payload: {
-            myCustomProperty: 'hello',
-          },
-        })
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+      "botId": "794fb01c-9a41-4e35-a295-c761252bc91b",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "794fb01c-9a41-4e35-a295-c761252bc91b",
+      "webhookId": "8b90a529-66e8-4342-98d1-ee75183fbeec",
+      "lazySocket": true,
+      "themeName": "prism",
+      "stylesheet": "https://utopia.express/chatbot.css",
+      "frontendVersion": "v1",
+      "theme": "prism",
+      "themeColor": "#2563eb",
+      "locale": "browser",
+      "hideWidget": "true"
+  });
+</script>
+<script>
+  function handleClick() {
+    console.log('Button clicked!')
+    window.botpressWebChat.sendPayload({
+      type: 'trigger',
+      payload: {
+        myCustomProperty: 'hello',
+      },
+    })
+  }
+
+  const button = document.getElementById('ShowBot')
+  button.addEventListener('click', handleClick)
+
+  window.botpressWebChat.onEvent(
+    function (event) {
+      if (event.type === 'LIFECYCLE.LOADED') {
+        window.botpressWebChat.sendEvent({ type: 'show' })
       }
- 
-      const button = document.getElementById('ShowBot')
-      button.addEventListener('click', handleClick)
- 
-      window.botpressWebChat.onEvent(
-        function (event) {
-          if (event.type === 'LIFECYCLE.LOADED') {
-            window.botpressWebChat.sendEvent({ type: 'show' })
-          }
-        },
-        ['LIFECYCLE.LOADED']
-      )
-    </script>
-  -->
+    },
+    ['LIFECYCLE.LOADED']
+  )
+</script>-->
   </body>
 </html>
