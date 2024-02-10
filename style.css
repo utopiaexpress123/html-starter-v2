@@ -164,8 +164,8 @@ span.dropdown {
     -moz-text-fill-color: transparent;
 }
 .gradient-text-work {
-    background-color: #afff6e;
-    background-image: linear-gradient(-45deg, #99e5f3, #d9fca1);
+    background-color: #e8c4f9;
+    background-image: linear-gradient(-45deg, #b3f3ff, #e8c4f9);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
